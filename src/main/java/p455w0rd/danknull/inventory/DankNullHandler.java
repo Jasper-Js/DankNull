@@ -454,7 +454,7 @@ public class DankNullHandler implements IDankNullHandler {
                 return extractionStacks.get(currentStack);
             }
         }
-        return ItemExtractionMode.KEEP_1;
+        return ItemExtractionMode.EXTRACT_ALL;
     }
 
     @Nonnull
